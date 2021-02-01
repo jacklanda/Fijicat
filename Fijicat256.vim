@@ -1,5 +1,5 @@
 " A u t h o r: J a c k l a n d a
-"   ___                                __
+"    ___                                __
 " /'___\ __    __  __                 /\ \__
 "/\ \__//\_\  /\_\/\_\    ___     __  \ \ ,_\
 "\ \ ,__\/\ \ \/\ \/\ \  /'___\ /'__`\ \ \ \/
@@ -28,9 +28,9 @@ if &t_Co > 255
       hi CursorLine               ctermbg=240   cterm=none
       hi CursorLineNr ctermfg=208               cterm=none
    else
-      hi Normal       ctermfg=15  ctermbg=233
+      hi Normal       ctermfg=254  ctermbg=233
       hi CursorLine    ctermbg=236   cterm=none
-      hi CursorLineNr ctermfg=208               cterm=none
+      hi CursorLineNr ctermfg=214               cterm=none
    endif
    hi Boolean         ctermfg=135
    hi Character       ctermfg=15
@@ -49,7 +49,7 @@ if &t_Co > 255
    hi DiffText                    ctermbg=102 cterm=bold
 
    hi Directory       ctermfg=118               cterm=bold
-   hi Error           ctermfg=219 ctermbg=89
+   hi Error           ctermfg=219 ctermbg=124
    hi ErrorMsg        ctermfg=199 ctermbg=16    cterm=bold
    hi Exception       ctermfg=118               cterm=bold
    hi Float           ctermfg=135
@@ -58,7 +58,7 @@ if &t_Co > 255
    hi Function        ctermfg=15    cterm=italic
    hi Identifier      ctermfg=208               cterm=none
    hi Ignore          ctermfg=244 ctermbg=232
-   hi IncSearch       ctermfg=202 ctermbg=15
+   hi IncSearch       ctermfg=208 ctermbg=15
 
    hi keyword         ctermfg=45               cterm=bold
    hi Label           ctermfg=160               cterm=none
@@ -80,7 +80,7 @@ if &t_Co > 255
    hi PreProc         ctermfg=82
    hi Question        ctermfg=81
    hi Repeat          ctermfg=160               cterm=bold
-   hi Search          ctermfg=15   ctermbg=202   cterm=bold
+   hi Search          ctermfg=15   ctermbg=208   cterm=bold
 
    " marks column
    hi SignColumn      ctermfg=118 ctermbg=235
@@ -115,7 +115,7 @@ if &t_Co > 255
    hi Comment         ctermfg=243   cterm=italic
    hi CursorColumn                ctermbg=236
    hi ColorColumn                 ctermbg=236
-   hi LineNr          ctermfg=250 ctermbg=236
+   hi LineNr          ctermfg=250 ctermbg=233
    hi NonText         ctermfg=59
 
    hi SpecialKey      ctermfg=59

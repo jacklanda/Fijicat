@@ -15,8 +15,8 @@
 ################################################################
 ```
 
-Usage: Place this theme file in your dir *.vim/colors/*
+**Usage:** Place this theme file in your dir *.vim/colors/*
        and you can adjust all the colors as you like.
 
-Note: Fijicat could only support to 256-colors version of Vim so far.
+**Note:** Fijicat could only support to 256-colors version of Vim so far.
 
